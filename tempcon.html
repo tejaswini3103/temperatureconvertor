@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature convertor</title>
+    <link rel="stylesheet" href="tempcss.css">
+</head>
+<body>
+    <h1>Temperature Converter</h1>
+    <div>
+        <label for="temperature">Enter Temperature:</label>
+        <input type="number" id="temperature" placeholder="Enter temperature here" step="0.01">
+        <select id="unit">
+            <option value="celsius">Celsius (°C)</option>
+            <option value="fahrenheit">Fahrenheit (°F)</option>
+            <option value="kelvin">Kelvin (K)</option>
+        </select>
+        <button id="convert-button">Convert</button>
+    </div>
+    <div>
+        <p>Result:</p>
+        <span id="result">_____</span>
+    </div>
+    <script src="temjs.js"></script>
+</body>
+</html>
